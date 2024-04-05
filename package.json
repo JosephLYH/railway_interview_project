@@ -2,11 +2,11 @@
   "name": "railway_interview_project",
   "version": "1.0.0",
   "description": "interview project for railway senior full stack engineer - product",
-  "main": "src/server.ts",
+  "main": "src/startup.ts",
   "scripts": {
     "start": "npm run prd",
-    "prd": "npm run compile && set DOTENV_CONFIG_PATH=.env && node build/src/server.js",
-    "dev": "set DOTENV_CONFIG_PATH=.env.development.local && nodemon src/server.ts",
+    "prd": "npm run compile && set DOTENV_CONFIG_PATH=.env && node build/src/startup.js",
+    "dev": "set DOTENV_CONFIG_PATH=.env.development.local && nodemon src/startup.ts",
     "test": "jest",
     "lint": "gts lint",
     "clean": "gts clean",
@@ -23,6 +23,7 @@
   "author": "Lam Yuen Ho Joseph",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/jest": "^29.5.12",
     "@types/node": "20.11.5",
     "@types/react": "^18.2.74",
