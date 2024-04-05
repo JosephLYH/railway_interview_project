@@ -1,0 +1,15 @@
+{
+  "name": "railway_interview_project",
+  "version": "1.0.0",
+  "description": "interview project for railway senior full stack engineer - product",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JosephLYH/railway_interview_project"
+  },
+  "author": "Lam Yuen Ho Joseph",
+  "license": "ISC"
+}
