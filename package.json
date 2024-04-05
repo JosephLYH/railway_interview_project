@@ -2,19 +2,19 @@
   "name": "railway_interview_project",
   "version": "1.0.0",
   "description": "interview project for railway senior full stack engineer - product",
-  "main": "build/src/index.js",
+  "main": "build/src/server.js",
   "scripts": {
-    "start": "npm.cmd run prd",
-    "prd": "npm.cmd run compile && set ENV_NODE=prd && node build/src/index.js",
-    "dev": "npm.cmd run compile && set ENV_NODE=dev && nodemon build/src/index.js",
+    "start": "npm run prd",
+    "prd": "npm run compile && set DOTENV_CONFIG_PATH=.env && node build/src/server.js",
+    "dev": "npm run compile && set DOTENV_CONFIG_PATH=.env.development.local && nodemon build/src/server.js",
     "test": "jest",
     "lint": "gts lint",
     "clean": "gts clean",
     "compile": "tsc",
     "fix": "gts fix",
-    "prepare": "npm.cmd run compile",
-    "pretest": "npm.cmd run compile",
-    "posttest": "npm.cmd run lint"
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
