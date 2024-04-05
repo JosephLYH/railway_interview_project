@@ -1,5 +1,6 @@
-const world = 'world'
+var http = require('http');
 
-export function hello(word: string = world): string {
-  return `Hello ${word}!`
-}
+http.createServer((req, res) => {
+  res.write('Hello World!')
+  res.end('Hello World\n')
+}).listen(8000);
