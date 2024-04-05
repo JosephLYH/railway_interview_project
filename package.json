@@ -4,6 +4,9 @@
   "description": "interview project for railway senior full stack engineer - product",
   "main": "build/src/index.js",
   "scripts": {
+    "start": "npm.cmd run prd",
+    "prd": "npm.cmd run compile && ENV_NODE=prd node build/src/index.js",
+    "dev": "npm.cmd run compile && ENV_NODE=dev nodemon build/src/index.js",
     "test": "jest",
     "lint": "gts lint",
     "clean": "gts clean",
