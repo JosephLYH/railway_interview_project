@@ -2,11 +2,10 @@
   "name": "railway_interview_project",
   "version": "1.0.0",
   "description": "interview project for railway senior full stack engineer - product",
-  "main": "src/startup.ts",
   "scripts": {
     "start": "npm run prd",
-    "prd": "npm run compile && node build/src/startup.js",
-    "dev": "nodemon src/startup.ts",
+    "prd": "npm run compile && node build/src/server.js",
+    "dev": "nodemon src/server.ts",
     "test": "jest",
     "lint": "gts lint",
     "clean": "gts clean",
@@ -38,6 +37,7 @@
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "graphql": "^16.8.1",
+    "node-fetch": "^3.3.2",
     "react-router-dom": "^6.22.3"
   },
   "nodemonConfig": {
