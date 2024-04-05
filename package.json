@@ -2,7 +2,7 @@
   "name": "railway_interview_project",
   "version": "1.0.0",
   "description": "interview project for railway senior full stack engineer - product",
-  "main": "index.js",
+  "main": "build/src/index.js",
   "scripts": {
     "test": "jest",
     "lint": "gts lint",
