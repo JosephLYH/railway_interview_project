@@ -2,11 +2,11 @@
   "name": "railway_interview_project",
   "version": "1.0.0",
   "description": "interview project for railway senior full stack engineer - product",
-  "main": "build/src/server.js",
+  "main": "src/server.ts",
   "scripts": {
     "start": "npm run prd",
     "prd": "npm run compile && set DOTENV_CONFIG_PATH=.env && node build/src/server.js",
-    "dev": "npm run compile && set DOTENV_CONFIG_PATH=.env.development.local && nodemon build/src/server.js",
+    "dev": "set DOTENV_CONFIG_PATH=.env.development.local && nodemon src/server.ts",
     "test": "jest",
     "lint": "gts lint",
     "clean": "gts clean",
