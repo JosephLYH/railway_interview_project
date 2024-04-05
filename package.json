@@ -11,5 +11,9 @@
     "url": "https://github.com/JosephLYH/railway_interview_project"
   },
   "author": "Lam Yuen Ho Joseph",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gts": "^5.3.0",
+    "typescript": "^5.4.4"
+  }
 }
