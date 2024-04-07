@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
-import {dev_spin_up, dev_spin_down} from './server_dev';
-import {prd_spin_up, prd_spin_down} from './server_prd';
+import {dev_spin_up, dev_spin_down} from './src/server_dev';
+import {prd_spin_up, prd_spin_down} from './src/server_prd';
 
 const server = express();
 

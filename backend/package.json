@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "start": "npm run prd",
-    "prd": "npm run compile && node build/src/index.js",
-    "dev": "nodemon src/index.ts",
+    "prd": "npm run compile && node build/index.js",
+    "dev": "nodemon index.ts",
     "test": "jest",
     "lint": "gts lint",
     "clean": "gts clean",
